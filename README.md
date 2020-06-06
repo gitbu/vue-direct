@@ -2,6 +2,6 @@
 
 ## v-focus
 自动获取焦点
-```
+```html
   <input v-focus="focused" />
 ```
