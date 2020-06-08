@@ -1,6 +1,36 @@
-# vue-v的常用自定义指令
+# vue-direct的常用自定义指令
 
-## v-focus
+## 快速上手
+
+**安装**
+
+```sh
+npm i -S vue-direct
+```
+
+**完整引入**
+
+```js
+import vueDirect from 'vue-direct'
+import Vue from 'vue';
+
+Vue.use(vueDirect);
+```
+
+**按需引入**
+
+```js
+import { autosize } from 'vue-direct';
+import Vue from 'vue';
+
+Vue.use(autosize);
+```
+
+
+
+##指令使用说明
+
+###v-focus
 
 **功能**： 自动获取焦点
 
@@ -14,10 +44,13 @@
   <input v-focus="focused" />
 ```
 
-## v-clipboard
+
+
+### v-clipboard
+
 **功能**： 自动把v-clipboard的value值复制到剪切板
 
-**值说明：**
+**值说明**:
 
 * data要复制的数据
 * clipboardSuccessHandler复制成功的回调
@@ -45,7 +78,7 @@
 
 
 
-## v-ellipsis
+###v-ellipsis
 
 **功能：**超出部分显示省略符
 
@@ -62,8 +95,13 @@
 
 
 
-## v-autosize
-**功能**: 输入框的高度自适应
+### v-autosize
 
-**值说明：**不用设置值
+**功能**: `textarea`高度自适应
+
+**值说明**:  不用设置值
+
+```html
+<textarea v-autosize>我们都是🇨🇳人</textarea>
+```
 
