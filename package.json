@@ -1,6 +1,6 @@
 {
   "name": "vue-direct",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "vue常用指令库",
   "main": "index.js",
   "files": [
