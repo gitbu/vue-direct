@@ -20,10 +20,14 @@ Vue.use(vueDirect);
 **按需引入**
 
 ```js
-import { autosize } from 'vue-direct';
+import { autosize, focus, clipboard, ellipsis } from 'vue-direct';
 import Vue from 'vue';
 
+// 这里大家选用自己要用的
 Vue.use(autosize);
+Vue.use(focus);
+Vue.use(clipboard);
+Vue.use(ellipsis);
 ```
 
 
@@ -78,7 +82,7 @@ Vue.use(autosize);
 
 
 
-###v-ellipsis
+### v-ellipsis
 
 **功能：** 超出部分显示省略符
 
