@@ -1,0 +1,34 @@
+{
+  "name": "vue-direct",
+  "version": "1.0.0",
+  "description": "vue常用指令库",
+  "main": "index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitbu/vue-v.git"
+  },
+  "keywords": [
+    "vue",
+    "指令"
+  ],
+  "author": "gitbu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitbu/vue-v/issues"
+  },
+  "homepage": "https://github.com/gitbu/vue-v#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
