@@ -6,7 +6,8 @@ module.exports = {
     index: './index.js',
     copy: './directives/copy.js',
     ellipsis: './directives/ellipsis.js',
-    focus: './directives/focus.js'
+    focus: './directives/focus.js',
+    autosize: './directives/autosize.js',
   },
   output: {
     path: path.resolve(process.cwd(), 'dist'),
